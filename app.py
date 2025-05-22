@@ -50,6 +50,7 @@ if "authenticated" not in st.session_state:
 
 if not st.session_state.authenticated:
     st.title("🔐 Login to Alzheimer Diagnosis")
+    st.markdown("Email : alvinondieki5@gmail.com >> Password : ALVIN001")
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
